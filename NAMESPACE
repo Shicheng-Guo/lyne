@@ -1,0 +1,17 @@
+useDynLib(lyne)
+import(RcppArmadillo, igraph, plyr)
+importFrom(Rcpp, evalCpp)
+export(	mcTreeLike					,
+	mcTreeLike.3states.inv				,
+	mcTreeLike.3states.GTR.bhom			,
+	mcTreeLike.3states.GTR.bhom.gamma		,
+	mcTreeLike.3states.GTR.bhom.gamma.inv		,
+	optimize.mcTreeLike.3states.GTR.bhom		,
+	optimize.mcTreeLike.3states.GTR.bhom.gamma	,
+	optimize.mcTreeLike.3states.GTR.bhom.gamma.inv	,
+	exampleLineageTree				,
+	getEdgeMatrix					,
+	pars2Q.3states.GTR				,
+	Q2P						,
+	QEig2P						,
+	Q2QEig						)

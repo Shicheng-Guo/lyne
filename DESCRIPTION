@@ -1,0 +1,17 @@
+Package: lyne
+Type: Package
+Title: Modeling the dynamics of epigenetic marks along a cell lineage
+        trees.
+Version: 0.1.3
+Date: 2015-06-03
+Author: Dennis Kostka 
+Maintainer: Dennis Kostka <kostka@pitt.edu>
+Description: Continous time Markov models for epigenetic marks (currently 5-mC DNA methylation). 
+License: Artistic-2.0
+Depends: igraph, plyr
+Suggests: knitr
+VignetteBuiilder: knitr
+Imports: Rcpp (>= 0.11.1), RcppArmadillo (>= 0.4.200.0)
+LinkingTo: Rcpp, RcppArmadillo
+NeedsCompilation: yes
+Packaged: 2015-06-03 21:47:18 UTC; dennis
